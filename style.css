@@ -1,0 +1,25 @@
+/* * > * {
+    border: 1px solid red;
+} */
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.game-info {
+    width: 500px;
+}
+
+.score-container {
+    display: flex;
+    gap: 64px;
+    justify-content: space-around;
+}
+
+.hide {
+    visibility: hidden;
+}

@@ -5,9 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
+    <script src="index.js" defer></script>
 </head>
 <body>
-    Hello World
-    <script src="index.js"></script>
+    <div class="container">
+        <h1>Rock, Paper, Scissors</h1>
+        <div class="btn-container">
+            <button class="weapon hide">rock</button>
+            <button class="weapon hide">paper</button>
+            <button class="weapon hide">scissors</button>
+        </div>
+        <div class="game-info">
+            <h2 class="score-title">Score</h2>
+            <div class="score-container">
+                <h3>
+                    Player: 
+                    <span id="player-score">0</span>
+                </h3>
+                <h3>
+                    Computer:
+                    <span id="computer-score">0</span> 
+                </h3>
+            </div>
+            <div class="comment-container">
+                <p id="comment">Let's play a game of Rock, Paper, Scissors! The first to win 5 rounds, wins!</p>
+            </div>    
+        </div>
+        <button id='play'>Play</button>
+    </div>
 </body>
 </html>
